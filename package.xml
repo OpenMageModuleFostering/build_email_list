@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>build_email_list</name>
+    <version>1.0.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Build email list Community Module</summary>
+    <description>Magento, by default, provides for exporting of customers name and email id and also newsletter subscribers. But if you need to get both the customers details and also the newsletter subscriber details as one list and being unique with no duplicate email id's, then Build Email List extension comes very handy. It generally is used when store owners would like to send out communication to the visitors of the website - they could be existing customers or newsletter subscribers</description>
+    <notes>Build email list Community Module</notes>
+    <authors><author><name>StrApp</name><user>strviv</user><email>strappvivek@gmail.com</email></author></authors>
+    <date>2014-11-25</date>
+    <time>06:56:32</time>
+    <contents><target name="magelocal"><dir name="Strapp"><dir name="Buildemaillist"><dir name="Helper"><file name="Data.php" hash="3012df1e2f558ccc36168b4a3d4f63e2"/></dir><dir name="Model"><dir name="Export"><file name="Csv.php" hash="f245a6ffd03309e7377dffc84fba51e7"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="ExportController.php" hash="d6f3ab32f8aa8aef261ee9e0782b401e"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="607aed536af7ab43477d15c609b108bb"/><file name="config.xml" hash="6ff9a845fd5af71f220f1bcc0d81762b"/><file name="system.xml" hash="b7c5f8591fdd3bf6fce9fea209115761"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Strapp_Buildemaillist.xml" hash="aed89d2e90e9b43d5e67870bfa7f40ef"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.5.6</max></php></required></dependencies>
+</package>

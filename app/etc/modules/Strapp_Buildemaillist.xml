@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Strapp Buildemaillist Module
+*
+* @category    Strapp
+* @package     Strapp_Buildemaillist
+*/
+ -->
+<config>
+  <modules>
+    <Strapp_Buildemaillist>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Strapp_Buildemaillist>
+  </modules>
+</config>

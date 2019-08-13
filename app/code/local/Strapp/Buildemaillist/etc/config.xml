@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Strapp Build email list Module
+*
+* @category    Strapp
+* @package     Strapp_Buildemaillist
+*/
+ -->
+<config>
+  <modules>
+    <Strapp_Buildemaillist>
+      <version>1.0.0</version>
+    </Strapp_Buildemaillist>
+  </modules>
+  <admin>        
+    <routers>
+      <buildemaillist>
+        <use>admin</use>
+        <args>
+          <module>Strapp_Buildemaillist</module>
+          <frontName>buildemaillist</frontName>
+        </args>
+      </buildemaillist>
+    </routers>	 
+  </admin>   
+  <global>
+    <models>
+      <strapp_buildemaillist>
+        <class>Strapp_Buildemaillist_Model</class>
+      </strapp_buildemaillist>
+    </models>
+    <blocks>
+      <strapp_buildemaillist>
+        <class>Strapp_Buildemaillist_Block</class>
+      </strapp_buildemaillist>	   
+    </blocks>
+    <helpers>
+      <strapp_buildemaillist>
+        <class>Strapp_Buildemaillist_Helper</class>
+      </strapp_buildemaillist>
+    </helpers>	
+  </global>
+  <default>
+    <buildemaillist>
+      <export>
+        <enable>1</enable>				
+      </export>			
+    </buildemaillist>
+  </default>
+</config>
