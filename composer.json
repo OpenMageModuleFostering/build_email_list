@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/build_email_list",
+    "name": "openmage-module-fostering\/build_email_list",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Build email list Community Module",
     "authors": [
